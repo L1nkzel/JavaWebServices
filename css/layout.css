@@ -1,0 +1,142 @@
+/*-------------------------
+----------Width------------
+---------------------------*/
+.max-width { max-width: 192rem;}
+.card-width { max-width: 60rem;}
+.width-l { max-width: 50%;}
+.min-width-xxl { min-width: 100%; } 
+
+
+/*-------------------------
+---------Position----------
+---------------------------*/
+.position-relative { position: relative !important;}
+.position-absolute { position: absolute !important;}
+.overflow-hidden { overflow: hidden;}
+.centerXY {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*-------------------------
+----------Margin-----------
+---------------------------*/
+.mr-auto, .mx-auto { margin-right: auto;}
+.ml-auto, .mx-auto { margin-left: auto;}
+
+
+.m-6 { margin: var(--distance-6);}
+.m-15 { margin: var(--distance-15);}
+
+.mt-0, .my-0 { margin-top: var(--distance-0);} 
+.mb-0, .my-0 { margin-bottom: var(--distance-0);} 
+.mt-1, .my-1 { margin-top: var(--distance-1);} 
+.mb-1, .my-1 { margin-bottom: var(--distance-1);} 
+.mt-2, .my-2 { margin-top: var(--distance-2);} 
+.mb-2, .my-2 { margin-bottom: var(--distance-2);} 
+.mt-4, .my-4 { margin-top: var(--distance-4);} 
+.mb-4, .my-4 { margin-bottom: var(--distance-4);} 
+.mt-6, .my-6 { margin-top: var(--distance-6);} 
+.mb-6, .my-6 { margin-bottom: var(--distance-6);} 
+.mt-8, .my-8 { margin-top: var(--distance-8);} 
+.mb-8, .my-8 { margin-bottom: var(--distance-8);} 
+.mt-10, .my-10 { margin-top: var(--distance-10);} 
+.mb-10, .my-10 { margin-bottom: var(--distance-10);} 
+.mt-12, .my-12 { margin-top: var(--distance-12);} 
+.mb-12, .my-12 { margin-bottom: var(--distance-12);} 
+.mt-15, .my-15 { margin-top: var(--distance-15);} 
+.mb-15, .my-15 { margin-bottom: var(--distance-15);} 
+
+.mb-s-12 { margin-bottom: var(--distance-12); }
+
+.mr-2, .mx-2 { margin-right: var(--distance-2);}
+.ml-2, .mx-2 { margin-left: var(--distance-2);}
+.mr-4, .mx-4 { margin-right: var(--distance-4);}
+.ml-4, .mx-4 { margin-left: var(--distance-4);}
+.mr-6, .mx-6 { margin-right: var(--distance-6);}
+.ml-6, .mx-6 { margin-left: var(--distance-6);}
+
+
+
+/*-------------------------
+----------Padding----------
+---------------------------*/
+.p-2 { padding: var(--distance-2);}
+.p-4 { padding: var(--distance-4);}
+.p-5 { padding: var(--distance-5);}
+.p-6 { padding: var(--distance-6);}
+.p-8 { padding: var(--distance-8);}
+.p-12 { padding: var(--distance-12);}
+.p-15 { padding: var(--distance-15);}
+
+.pr-2, .px-2 { padding-right: var(--distance-2);}
+.pr-4, .px-4 { padding-right: var(--distance-4);}
+.pl-2, .px-2 { padding-left: var(--distance-2);}
+.pl-4, .px-4 { padding-left: var(--distance-4);}
+.pr-12, .px-12 { padding-right: var(--distance-12);}
+.pl-12, .px-12 { padding-left: var(--distance-12);}
+
+.pt-2, .py-2 { padding-top: var(--distance-2);}
+.pb-2, .py-2 { padding-bottom: var(--distance-2);}
+
+/*-------------------------
+----------Typography-------
+---------------------------*/
+.text-decoration-none { text-decoration: none;}
+.text-center { text-align: center;}
+.text-uppercase { text-transform: uppercase;}
+.text-bold { font-weight: bold;}
+
+.text-size-xxs { font-size: var(--display-xxs);}
+.text-size-xs { font-size: var(--display-xs);}
+.text-size-s { font-size: var(--display-s);}
+.text-size-m { font-size: var(--display-m);}
+.text-size-l { font-size: var(--display-l);}
+.text-size-xl { font-size: var(--display-xl);}
+.text-size-xxl { font-size: var(--display-xxl);}
+
+
+.lh-s { line-height: var(--line-height-s);}
+.lh-m { line-height: var(--line-height-m);}
+.lh-l { line-height: var(--line-height-l);}
+
+
+
+/*-------------------------
+----------Circle-----------
+---------------------------*/
+.circle { border-radius: 100%;}
+.circle-l { width: 15rem; height: 15rem; }
+
+
+
+/*-------------------------
+----------Shadows----------
+---------------------------*/
+.shadow-s { box-shadow: var(--shadow-small-light);}
+.shadow-l { box-shadow: var(--shadow-large-light);}
+
+
+/*-------------------------
+----------Buttons-----------
+---------------------------*/
+nav div a:not(:first-child) { margin-left: var(--distance-12);}
+.icon-badge {
+    top: -8px;
+    right: -8px;
+    padding:  var(--distance-1) var(--distance-3);
+
+}
+
+/*-------------------------
+----------Borders----------
+---------------------------*/
+.border-radius { border-radius: var(--border-radius-s);}
+.border-small-white { border: var(--border-xs-white);}
+.border-bottom-xs { border-bottom: var(--border-xs);}
+.border-s { border: var(--border-s); }
+.border-m { border: var(--border-m); }
+.border-l { border: var(--border-l); }
+.border-transparent { border: var(--border-transparent); }
