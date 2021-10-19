@@ -73,7 +73,7 @@
      --border-l: .4rem solid var(--color-white);
 
      --border-radius-s: .25rem;
-     --border-sucess: .2rem solid var(--border-color-sucess);
+     --border-success: .2rem solid var(--border-color-sucess);
      --border-transparent: .1 solid var(--color-transparent);
 }
 
