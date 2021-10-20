@@ -140,3 +140,16 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 .border-m { border: var(--border-m); }
 .border-l { border: var(--border-l); }
 .border-transparent { border: var(--border-transparent); }
+.border-line-right {
+    border-right: 0.1rem solid var(--color-border);
+  }
+.border-line-left {
+    border-left: 0.1rem solid var(--color-border);
+  }
+.border-line-top {
+    border-top: 0.1rem solid var(--color-border);
+  }
+.border-line-bottom {
+    border-bottom: 0.1rem solid var(--color-border);
+  }
+  
