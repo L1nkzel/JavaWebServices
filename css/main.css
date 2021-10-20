@@ -94,15 +94,15 @@ html {
     font-size: 62.5%;
 }
 
+
 body{
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.6;
     color: var(--color-dark);
     font-size: var(--display-s);
     min-height: 100vh;
     list-style: none;
-
 }
 
 
