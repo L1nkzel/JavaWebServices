@@ -9,6 +9,7 @@
     --color-warning:#f0c24b;
     --color-danger:#ea7066;
     --color-light: #f8f9fa;
+    --color-grey: #848484;
     --color-dark:#343a40;
     --color-white:#fff;
     --color-cozy:#d7e741;
@@ -96,7 +97,7 @@ html {
 
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Sora', sans-serif;
     font-weight: 400;
     line-height: 1.6;
     color: var(--color-dark);
@@ -104,6 +105,13 @@ body{
     min-height: 100vh;
     list-style: none;
 }
+
+.img-adjust {
+    width: 10rem;
+    height: 12rem;
+    object-fit: scale-down;
+}
+
 
 
 .h1,h2,h3,h4,h5,h6,h1,h2,h3,h4,h5,h6 {font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 700;}
@@ -134,6 +142,7 @@ body{
     .text-success{ color: var(--color-success);}
     .text-info{ color: var(--color-info);}
     .text-warning{ color: var(--color-warning);}
+    .text-grey{ color: var(--color-grey);}
     .text-danger{ color: var(--color-danger);}
     .text-light{ color: var(--color-light);}
     .text-dark{color: var(--color-dark);}
