@@ -5,6 +5,7 @@
     --color-primary:#5234d8;
     --color-secondary:#2f3438;
     --color-success:#85ad26;
+    --color-dark-success:#219911;
     --color-info:#84bed6;
     --color-warning:#f0c24b;
     --color-danger:#ea7066;
@@ -69,8 +70,8 @@
     ---------------------------*/
      --border-xs-white: 0.1rem solid var(--color-white);
      --border-xs: .1rem solid var(--color-light);
-     --border-s: .2rem solid var(--color-light);
-     --border-m: .3rem solid var(--color-light);
+     --border-s: .2rem solid var(--color-dark);
+     --border-m: .3rem solid var(--color-dark);
      --border-l: .4rem solid var(--color-white);
 
      --border-radius-s: .25rem;
@@ -78,6 +79,14 @@
      --border-transparent: .1 solid var(--color-transparent);
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.card-size {
+    max-height: auto;
+    width: auto;
+  }
 
 * {
     margin: 0;
@@ -123,10 +132,12 @@ body{
     .bg-primary, .btn-primary { background-color: var(--color-primary);}
     .bg-secondary, .btn-secondary{background-color: var(--color-secondary);}
     .bg-success, .btn-success{background-color: var(--color-success);}
+    .bg-dark-success, .btn-dark-success{background-color: var(--color-dark-success);}
     .bg-info, .btn-info{background-color: var(--color-info);}
     .bg-warning, .btn-warning{background-color: var(--color-warning);}
     .bg-danger, .btn-danger{background-color: var(--color-danger);}
     .bg-light, .btn-light{background-color: var(--color-light);}
+    .bg-grey, .btn-grey{background-color: var(--color-grey);}
     .bg-dark, .btn-dark{background-color: var(--color-dark);}
     .bg-white, .btn-white{background-color: var(--color-white);}
     .bg-cozy, .btn-cozy{background-color: var(--color-cozy);}
@@ -140,6 +151,7 @@ body{
     .text-primary{ color: var(--color-primary);}
     .text-secondary{ color: var(--color-secondary);}
     .text-success{ color: var(--color-success);}
+    .text-dark-success{ color: var(--color-dark-success);}
     .text-info{ color: var(--color-info);}
     .text-warning{ color: var(--color-warning);}
     .text-grey{ color: var(--color-grey);}

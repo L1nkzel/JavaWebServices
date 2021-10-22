@@ -2,11 +2,12 @@
 ----------Width------------
 ---------------------------*/
 .max-width { max-width: 192rem;}
-.card-width { max-width: 60rem;}
+.card-width { max-width: 33rem;}
 
 .width-l { max-width: 50%;}
 .width-xl { max-width: 66%;}
 .min-width-xxl { min-width: 100%; } 
+.f-width { max-width: 33%; }
 
 
 
@@ -148,7 +149,8 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 .border-l { border: var(--border-l); }
 .border-transparent { border: var(--border-transparent); }
 
-.border-box {width: 220px; border: var(--border-xs);}
+.border-box {width:22rem; height:3.64rem ;}
+.border-s-box {max-width: 40rem;}
 .border-box-images {width: 33rem; height: 16rem; border: var(--border-xs);}
 
 .border-line-right {
@@ -167,3 +169,9 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
   aside {
       float: left;
   }
+
+  .max-content {
+    min-width: max-content;
+  }
+
+
