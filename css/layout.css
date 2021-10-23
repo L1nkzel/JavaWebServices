@@ -3,7 +3,7 @@
 ---------------------------*/
 .max-width { max-width: 192rem;}
 .card-width { max-width: 33rem;}
-
+.img-l-width {max-width: 150% !important ;}
 .width-l { max-width: 50%;}
 .width-xl { max-width: 66%;}
 .min-width-xxl { min-width: 100%; } 
@@ -61,6 +61,7 @@
 .ml-4, .mx-4 { margin-left: var(--distance-4);}
 .mr-6, .mx-6 { margin-right: var(--distance-6);}
 .ml-6, .mx-6 { margin-left: var(--distance-6);}
+.ml-7, .mx-7 { margin-left: var(--distance-7);}
 
 
 
@@ -138,6 +139,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 
 }
 
+
 /*-------------------------
 ----------Borders----------
 ---------------------------*/
@@ -173,5 +175,63 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
   .max-content {
     min-width: max-content;
   }
+  
+  /* position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e7e6e4;;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px solid #f0c24b ;
+    max-width: max-content;
+  }
+  
+  /* Content inside the dropdown */
+  .dropdown-content  a {
+    padding: .5rem 3.3rem;
+    min-width: max-content;
+    text-decoration: none;
+    background-size: cover;
+    border: 1px solid #f0c24b ;
+    
+    color:rgb(0, 0, 0);
+    display:block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+      background-color: #f3d947 
+    
+    }
+  
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #f0c24b;
+ 
+    
+  }
 
+  .dropbtn {
+    padding: 14px;
+    font-size: 14px;
+    cursor: pointer;
+  }
 
+  .position-user-menu{
+    top: 87%;
+    left: 2.9%;
+  }
