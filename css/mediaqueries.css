@@ -6,15 +6,29 @@
     html { font-size: 90%;} 
 }
 
+@media screen and (max-width: 19.7em){
+    html { font-size: 10%;}
+}
+
 @media screen and (max-width: 25.3em) {/* 405px / 16px = 25.3em */
-    html { font-size: 85%;} 
+    html { font-size: 75%;} 
+    .column-s {flex-direction: column;}
+    .img-new-adjust { width: 14rem;
+        height: 14rem;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .text-center{
+        margin: 0 auto;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 31.25em){/* 500px / 16px = 31.25em */
-    .column-s {flex-direction: column;}
-    .img-new-adjust {  width: 20rem;
-        height: 12rem !important;}
-       
+    .justify {
+     justify-content: center;
+    }
 
 }
 
@@ -27,20 +41,26 @@
       }
     .d-s-none { display: none !important; }
     .d-s-block { display:block !important; }
+    
     .order-1 {
         order: 1;
         padding-top: 1rem;
       }
     
+    .dflex{display: flex;}
     .align-center { justify-content: center;}
     .card-l-width { max-width: 43rem;}
     .img-l-width { width: 47% !important ;}
     .heading-xxs-width { width: 100% !important; }
     .text-xxs { font-size: var(--display-xxs);}
     .drop-cont {
-        top: 85%;
+        top: 86%;
         left: 9.5%;
         min-width:max-content;
+    }
+    .text-center{
+        margin: 0 auto;
+        display: block;
     }
     
 }

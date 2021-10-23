@@ -116,9 +116,9 @@ body{
 }
 
 .img-adjust {
+    margin-top: 3rem;
     width: 10rem;
-    height: 12rem;
-    object-fit: scale-down;
+    height: 10rem;
 }
 
 

@@ -2,7 +2,8 @@
 ----------Width------------
 ---------------------------*/
 .max-width { max-width: 192rem;}
-.card-width { max-width: 33rem;}
+.card-width { max-width: 33rem;
+}
 .img-l-width {max-width: 150% !important ;}
 .width-l { max-width: 50%;}
 .width-xl { max-width: 66%;}
@@ -152,7 +153,9 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 .border-transparent { border: var(--border-transparent); }
 
 .border-box {width:22rem; height:3.64rem ;}
-.border-s-box {max-width: 40rem;}
+.border-s-box {max-width: 40rem;
+
+}
 .border-box-images {width: 33rem; height: 16rem; border: var(--border-xs);}
 
 .border-line-right {
@@ -172,6 +175,14 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
       float: left;
   }
 
+  aside li:hover {
+    background:#f0c24b;
+  }
+
+  #hover-on-button:hover {
+    color: var(--color-warning);
+  }
+
   .max-content {
     min-width: max-content;
   }
@@ -189,29 +200,25 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
     background-color: #e7e6e4;;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border: 1px solid #f0c24b ;
+    border: 1px solid #f3f2f1 ;
     max-width: max-content;
+ 
   }
   
   /* Content inside the dropdown */
   .dropdown-content  a {
-    padding: .5rem 3.3rem;
+    padding: .4rem 3.2rem;
     min-width: max-content;
     text-decoration: none;
-    background-size: cover;
-    border: 1px solid #f0c24b ;
-    
     color:rgb(0, 0, 0);
     display:block;
   }
   
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
-      background-color: #f3d947 
-    
+      background-color:#f0c24b;
+
     }
-  
-  
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
@@ -221,17 +228,19 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
     background-color: #f0c24b;
- 
+    color: var(--color-dark);
     
   }
 
   .dropbtn {
-    padding: 14px;
+    padding: 12px;
     font-size: 14px;
     cursor: pointer;
   }
 
   .position-user-menu{
-    top: 87%;
-    left: 2.9%;
+    top: 88%;
+    left: 3.2%;
   }
+
+ 

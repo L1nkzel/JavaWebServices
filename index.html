@@ -20,12 +20,12 @@
         <nav class="d-flex flex-grow bg-dark justify-content-between align-items-center ">
             <!-- Dropdown user meny -->
             <div class="dropdown justify-content-between d-flex m-2">
-                <button class="dropbtn ml-2 mb-2 bg-transparent text-light">
+                <button class="dropbtn border-radius ml-2 mb-2 mt-2 bg-transparent  text-light">
                     <i class="fas fa-user mx-2"></i>
                     <span class="d-s-none">Monkey D. Luffy</span>
                     <i class="ml-2 fas fa-caret-down"></i>
                 </button>
-                    <div class="dropdown-content text-size-xs text-xxs position-user-menu drop-cont">
+                    <div class="dropdown-content text-size-xs border-radius text-xxs position-user-menu drop-cont">
                     <li><a href="#" class="">Monkey D. Luffy</a></li>
                    <li><a href="#" class="">Gol D. Roger</a></li>
                    <li><a href="#" class="">Roronoa Zoro</a></li>
@@ -46,10 +46,10 @@
             </div>
             <!-- Social media -->
             <div class="d-flex align-items-center">
-                <li><a href="#" class="fab fa-facebook text-size-l text-light text-decoration-none mr-2"></a></li>
-                <li><a href="#" class="fab fa-twitter text-size-l text-light text-decoration-none mr-2"></a></li>
-                <li><a href="#" class="fab fa-instagram text-size-l text-light text-decoration-none mr-2"></a></li>
-                <li><a href="#" class="fab fa-pinterest text-size-l text-light text-decoration-none mr-2"></a></li>
+                <li><a href="#" class="text-size-l text-light text-decoration-none mr-2"><i id="hover-on-button" class="fab fa-facebook"></i></a></li>
+                <li><a href="#" class="text-size-l text-light text-decoration-none mr-2"><i id="hover-on-button" class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="text-size-l text-light text-decoration-none mr-2"><i id="hover-on-button" class="fab fa-instagram"></i></a></li>
+                <li><a href="#" class="text-size-l text-light text-decoration-none mr-2"><i id="hover-on-button" class="fab fa-pinterest"></i></a></li>
             </div>
         </nav>
     </header>
@@ -64,15 +64,15 @@
         <input size="" type="text" placeholder="Search..." class="d-flex align-items-center flex-grow p-2 text-size-xxs">
     </div>
         <!-- Shopping icons -->
-        <div class="d-flex align-items-center">
-        <a class="d-none d-s-block mr-2 border-line-right text-decoration-none text-dark" href="#">
+        <div id="test" class="d-flex align-items-center">
+        <a class="d-none d-s-block mr-2 border-line-right text-decoration-none text-dark"href="#">
             <div class="text-size-m mx-6"><i class="fas fa-bars px-2"></i></div>
             <p class="d-flex text-size-xs align-items-center justify-content-center">Menu</p>
         </a>
             <a class="position-relative mr-2 border-line-right text-decoration-none text-dark" href="#">
                 <div class="text-size-m position-relative mx-6"><i class="fas fa-heart px-2"></i></div>
                 <span
-                    class="text-white position-absolute icon-badge circle bg-success border-small-white text-size-xxs mx-4">8</span>
+                    class="text-white position-absolute icon-badge circle bg-dark-success border-small-white text-size-xxs mx-4">8</span>
                 <p class="d-flex text-size-xs align-items-center justify-content-center">Favs</p>
             </a>
             <a class="position-relative mr-2 border-line-right text-decoration-none text-dark" href="#">
@@ -80,7 +80,7 @@
                     <i class="fas fa-shopping-cart text-decoration-none"></i>
                 </div>
                 <span
-                    class="text-white position-absolute icon-badge circle bg-success border-small-white text-size-xxs mx-4">3</span>
+                    class="text-white position-absolute icon-badge circle bg-dark-success border-small-white text-size-xxs mx-4">3</span>
                 <p class="d-flex text-size-xs align-items-center justify-content-center">$1202</p>
             </a>
 
@@ -101,46 +101,46 @@
 </header>
 <div class="d-flex sm-wrap">
     <!-- Nav section -->
-    <aside class="d-flex flex-column grow-sm max-content ml-2 my-6">
-        <li class="border-line-top border-line-bottom border-line-left border-line-right border-s-box py-2 px-2 mr-2"><i
+    <aside class="d-flex flex-column grow-sm max-content ml-2 my-6 border-s-box">
+        <li id="first" class="border-line-top border-line-bottom border-line-left border-line-right py-2 px-2 mr-2 "><i
                 class="far fa-hdd text-dark-success mx-2"></i><a class="text-decoration-none text-size-xs text-dark" href="#">Computer &
                 Accessories</a></li>
-        <li class="border-line-bottom border-line-left border-line-right border-s-box py-2 px-2 mr-2"><i
+        <li class="border-line-bottom border-line-left border-line-right py-2 px-2 mr-2"><i
                 class="fas fa-tv text-dark-success mx-2"></i><a class="text-decoration-none text-size-xs text-dark" href="#">TV, Video & Audio</a>
         </li>
-        <li class="border-line-bottom border-line-left border-line-right border-s-box py-2 px-2 mr-2"><i
+        <li class="border-line-bottom border-line-left border-line-right  py-2 px-2 mr-2"><i
                 class=" fas fa-mobile-alt text-dark-success mx-2"></i><a class="text-decoration-none text-size-xs text-dark" href="#">Smartphones &
                 Tablets</a></li>
-        <li class="border-line-bottom border-line-left border-line-right border-s-box py-2 px-2 mr-2"><i
+        <li class="border-line-bottom border-line-left border-line-right py-2 px-2 mr-2"><i
                 class="fas fa-camera-retro text-dark-success mx-2"></i><a class="text-decoration-none text-size-xs text-dark" href="#">Photo
                 Cameras</a></li>
-        <li class="border-line-bottom border-line-left border-line-right border-s-box py-2 px-2 mr-2"><i
+        <li class="border-line-bottom border-line-left border-line-right py-2 px-2 mr-2"><i
                 class="fas fa-video text-dark-success mx-2"></i><a class="text-decoration-none text-size-xs text-dark" href="#">Video Cameras</a>
         </li>
-        <li class="border-line-bottom border-line-left border-line-right border-s-box py-2 px-2 mr-2"><i
+        <li class="border-line-bottom border-line-left border-line-right py-2 px-2 mr-2"><i
                 class="fas fa-headphones text-dark-success mx-2"></i><a class="text-decoration-none text-size-xs text-dark" href="#">Headphones</a>
         </li>
-        <li class="border-line-bottom border-line-left border-line-right border-s-box py-2 px-2 mr-2"><i
+        <li class="border-line-bottom border-line-left border-line-right py-2 px-2 mr-2"><i
                 class="fas fa-clock text-dark-success mx-2"></i><a class="text-decoration-none text-size-xs text-dark" href="#">Wearable
                 Electronics</a></li>
-        <li class="border-line-bottom border-line-left border-line-right border-s-box py-2 px-2 mr-2"><i
+        <li class="border-line-bottom border-line-left border-line-right py-2 px-2 mr-2"><i
                 class="fas fa-photo-video text-dark-success mx-2"></i><a class="text-decoration-none text-size-xs text-dark" href="#">Printers &
                 ink</a></li>
-        <li class="border-line-bottom border-line-left border-line-right border-s-box py-2 px-2 mr-2"><i
+        <li class="border-line-bottom border-line-left border-line-right py-2 px-2 mr-2"><i
                 class="fas fa-gamepad text-dark-success mx-2"></i><a class="text-decoration-none text-size-xs text-dark" href="#">Video
                 Games</a></li>
     </aside>
     <!--C-->
-    <section class="mb-15">
+    <section class="mb-15 ">
         <!-- Cards Container -->
-        <div class="d-flex flex-wrap align-center sm-wrap justify-cards ">
+        <div class="d-flex flex-wrap sm-wrap justify-cards ">
             <!-- Cards -->
-            <div class="d-flex card-l-width column-s ml-2 position-relative overflow-hidden border-radius mt-6 ml-6 flex-row border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
+            <div class="d-flex card-l-width column-s ml-2 position-relative border-radius mt-6 ml-6 flex-row border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
                 <div>
-                    <p class="position-absolute text-size-xxs bg-warning text-dark px-2 border-radius">70% off</p>
+                    <p class="position-absolute text-size-xxs bg-warning text-dark px-2  border-radius">70% off</p>
                     <img class="img-adjust img-new-adjust pt-6" src="images/products/headphones-64.png" alt="">
                 </div>
-                <div class="flex-grow ml-6">
+                <div class="flex-grow ml-6 ">
                     <div class="d-flex justify-content-between text-dark pt-2">
                         <a class="text-decoration-none" href="#">
                             <h4>Philips Headphones</h4>
@@ -174,7 +174,7 @@
                 <div class="flex-grow ml-6">
                     <div class="d-flex justify-content-between text-dark pt-2">
                         <a class="text-decoration-none" href="#">
-                            <h4>Asus gaminglaptop</h4>
+                            <h4>Asus laptop</h4>
                         </a>
                         <a href="#" class="text-dark fas fa-heart text-decoration-none pr-4"></a>
                     </div>
