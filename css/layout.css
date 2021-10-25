@@ -4,6 +4,8 @@
 .max-width { max-width: 192rem; }
 .card-width { max-width: 33rem; }
 .img-l-width { max-width: 5rem; }
+.img-payment-width { max-width: 22rem; }
+
 .width-l { max-width: 50%; }
 .width-xl { max-width: 66%; }
 .min-width-xxl { min-width: 100%; } 
@@ -61,6 +63,9 @@
 .mr-6, .mx-6 { margin-right: var(--distance-6);}
 .ml-6, .mx-6 { margin-left: var(--distance-6);}
 .ml-7, .mx-7 { margin-left: var(--distance-7);}
+.ml-10, .mx-10 { margin-left: var(--distance-10);}
+.mr-20, .mx-20 { margin-right: var(--distance-20);}
+.ml-20, .mx-20 { margin-left: var(--distance-20);}
 
 
 
@@ -237,4 +242,3 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
     left: 3.2%;
   }
 
- 

@@ -50,9 +50,10 @@
       display: flex;
       flex-direction: column;
       }
+    .justify-content-center {justify-content: center !important;}
     .d-s-none { display: none !important; }
+    .ml-20{ margin-left: auto;}
     .d-s-block { display:block !important; }
-    
     .order-1 {
         order: 1;
         padding-top: 2.5rem;
@@ -60,6 +61,7 @@
     .position-relative1{margin-right: 420px; margin-top: 26px;  position: relative ;}
     .position-absolute1{position: absolute ;}
     .dflex{display: flex;}
+   
     .align-center { justify-content: center;}
     .card-l-width { max-width: 43rem;}
     .img-s-width { width: 6rem !important ;}
@@ -92,4 +94,8 @@
 }
 
 
+@media screen and (max-width: 18.75em) {
+    .margin-left {margin-left: 2rem;}
+    .margin-right {margin-right: 2rem;}
+}
 
