@@ -34,13 +34,13 @@
             <!-- Contact info -->
             <div class="d-flex align-items-center justify-content-between mx-auto text-light d-s-none">
                 <div class="d-flex align-items-center">
-                    <a href="#" class="p-4">
-                        <p class="fas fa-phone-alt text-size-m text-light"> + 55 55 55 55</p>
+                    <a href="#" id="hover-on-button" class="p-4 text-light">
+                        <i class="fas fa-phone-alt text-size-m"> + 55 55 55 55 </i>
                     </a>
                 </div>
-                <div class="d-flex align-items-center">
-                    <a href="#" class="pr-4 ">
-                        <p class="fas fa-envelope text-size-m text-light"> info@mystore.com</p>
+                <div class="d-flex align-items-center ml-2">
+                    <a href="#" id="hover-on-button" class="pr-4 text-light">
+                        <i class="fas fa-envelope text-size-m"> info@mystore.com </i>
                     </a>
                 </div>
             </div>
@@ -55,8 +55,8 @@
     </header>
     <!-- Navigation -->
     <section class="d-flex max-width grow-sm p-4 align-items-center border-line-bottom">
-        <div class="d-flex px-2 mb-4 justify-content-center">
-            <img class="mr-2 img-l-width" src="images/logo/logo.png" width="70rem" alt="MY STORE LOGO">
+        <div class="d-flex position-relative1 position-relative2 px-2 mb-2 justify-content-center">
+            <img class="mr-2 img-l-width img-s-width" src="images/logo/logo.png" alt="MY STORE LOGO">
         </div>
        <!-- Search function -->
        <div class="d-flex flex-grow flex-row order-1 heading-xxs-width">
@@ -64,7 +64,7 @@
         <input size="" type="text" placeholder="Search..." class="d-flex align-items-center flex-grow p-2 text-size-xxs">
     </div>
         <!-- Shopping icons -->
-        <div id="test" class="d-flex align-items-center">
+        <div id="test" class="d-flex align-items-center position-absolute1 position-absolute2">
         <a class="d-none d-s-block mr-2 border-line-right text-decoration-none text-dark"href="#">
             <div class="text-size-m mx-6"><i class="fas fa-bars px-2"></i></div>
             <p class="d-flex text-size-xs align-items-center justify-content-center">Menu</p>
@@ -101,7 +101,7 @@
 </header>
 <div class="d-flex sm-wrap">
     <!-- Nav section -->
-    <aside class="d-flex flex-column grow-sm max-content ml-2 my-6 border-s-box">
+    <aside class="d-flex flex-column grow-sm max-content ml-2 my-6">
         <li id="first" class="border-line-top border-line-bottom border-line-left border-line-right py-2 px-2 mr-2 "><i
                 class="far fa-hdd text-dark-success mx-2"></i><a class="text-decoration-none text-size-xs text-dark" href="#">Computer &
                 Accessories</a></li>
@@ -131,11 +131,11 @@
                 Games</a></li>
     </aside>
     <!--C-->
-    <section class="mb-15 ">
+    <section class="mb-15">
         <!-- Cards Container -->
         <div class="d-flex flex-wrap sm-wrap justify-cards ">
             <!-- Cards -->
-            <div class="d-flex card-l-width column-s ml-2 position-relative border-radius mt-6 ml-6 flex-row border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
+            <div id="" class="d-flex card-l-width column-s position-relative border-radius mt-6 ml-4 flex-row border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
                 <div>
                     <p class="position-absolute text-size-xxs bg-warning text-dark px-2  border-radius">70% off</p>
                     <img class="img-adjust img-new-adjust pt-6" src="images/products/headphones-64.png" alt="">
@@ -166,7 +166,7 @@
             </div>
             <!-- Cards -->
             <div
-                class="d-flex card-l-width column-s position-relative overflow-hidden border-radius mt-6 ml-6 border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
+                class="d-flex card-l-width column-s position-relative overflow-hidden border-radius mt-6 ml-4 border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
                 <div>
                     <p class="position-absolute text-size-xxs bg-dark text-light px-2 border-radius ">50% off</p>
                     <img class="img-adjust img-new-adjust pt-6" src="images/products/AsusLaptop.jpg" alt="">
@@ -196,7 +196,7 @@
             </div>
                <!-- Cards -->
                <div
-               class="d-flex card-l-width column-s position-relative overflow-hidden border-radius mt-6 ml-6 border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
+               class="d-flex card-l-width column-s position-relative overflow-hidden border-radius mt-6 ml-4 border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
                <div>
                    <p class="position-absolute text-size-xxs bg-warning text-dark px-2 border-radius ">30% off</p>
                    <img class="img-adjust img-new-adjust pt-6" src="images/products/14.jpg" alt="">
@@ -226,7 +226,7 @@
            </div>
               <!-- Cards -->
               <div
-              class="d-flex card-l-width column-s position-relative overflow-hidden border-radius mt-8 ml-6 border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
+              class="d-flex card-l-width column-s position-relative overflow-hidden border-radius mt-8 ml-4 border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
               <div>
                   <p class="position-absolute text-size-xxs bg-dark text-light px-2 border-radius ">40% off</p>
                   <img class="img-adjust img-new-adjust pt-6" src="images/products/11.jpg" alt="">
@@ -256,7 +256,7 @@
           </div>
              <!-- Cards -->
              <div
-             class="d-flex card-l-width column-s position-relative overflow-hidden border-radius mt-8 ml-6 border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
+             class="d-flex card-l-width column-s position-relative overflow-hidden border-radius mt-8 ml-4 border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
              <div>
                  <p class="position-absolute text-size-xxs bg-warning text-dark px-2 border-radius ">33% off</p>
                  <img class="img-adjust img-new-adjust pt-6" src="images/products/06.jpg" alt="">
@@ -286,7 +286,7 @@
          </div>
             <!-- Cards -->
             <div
-                class="d-flex card-l-width column-s position-relative overflow-hidden border-radius mt-8 ml-6 border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
+                class="d-flex card-l-width column-s position-relative overflow-hidden border-radius mt-8 ml-4 border-line-bottom border-line-left border-line-right border-line-top card-width mr-4">
                 <div>
                     <p class="position-absolute text-size-xxs bg-dark text-light px-2 border-radius ">30% off</p>
                     <img class="img-adjust img-new-adjust pt-6" src="images/products/05.jpg" alt="">

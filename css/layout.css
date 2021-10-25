@@ -1,15 +1,13 @@
 /*-------------------------
 ----------Width------------
 ---------------------------*/
-.max-width { max-width: 192rem;}
-.card-width { max-width: 33rem;
-}
-.img-l-width {max-width: 150% !important ;}
-.width-l { max-width: 50%;}
-.width-xl { max-width: 66%;}
+.max-width { max-width: 192rem; }
+.card-width { max-width: 33rem; }
+.img-l-width { max-width: 5rem; }
+.width-l { max-width: 50%; }
+.width-xl { max-width: 66%; }
 .min-width-xxl { min-width: 100%; } 
 .f-width { max-width: 33%; }
-
 
 
 /*-------------------------
@@ -151,11 +149,6 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 .border-m { border: var(--border-m); }
 .border-l { border: var(--border-l); }
 .border-transparent { border: var(--border-transparent); }
-
-.border-box {width:22rem; height:3.64rem ;}
-.border-s-box {max-width: 40rem;
-
-}
 .border-box-images {width: 33rem; height: 16rem; border: var(--border-xs);}
 
 .border-line-right {
@@ -182,6 +175,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
   #hover-on-button:hover {
     color: var(--color-warning);
   }
+ 
 
   .max-content {
     min-width: max-content;

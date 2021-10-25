@@ -10,7 +10,16 @@
     html { font-size: 10%;}
 }
 
-@media screen and (max-width: 25.3em) {/* 405px / 16px = 25.3em */
+
+@media screen and (max-width: 56.7em){
+    html { font-size: 80%;}
+}
+@media screen and (max-width: 45.6em){
+    html { font-size: 100%;}
+    
+}
+
+@media screen and (max-width: 27.2em) {/* 405px / 16px = 25.3em */
     html { font-size: 75%;} 
     .column-s {flex-direction: column;}
     .img-new-adjust { width: 14rem;
@@ -25,6 +34,8 @@
     }
 }
 
+
+
 @media screen and (max-width: 31.25em){/* 500px / 16px = 31.25em */
     .justify {
      justify-content: center;
@@ -32,7 +43,7 @@
 
 }
 
-  @media screen and (max-width: 38.5em) { /* 616px / 16px = 34.5em */
+  @media screen and (max-width: 45.6em) { /* 616px / 16px = 34.5em */
     .sm-wrap {flex-wrap: wrap !important;}
     .grow-sm {
       flex-grow: 1;
@@ -44,13 +55,14 @@
     
     .order-1 {
         order: 1;
-        padding-top: 1rem;
+        padding-top: 2.5rem;
       }
-    
+    .position-relative1{margin-right: 420px; margin-top: 26px;  position: relative ;}
+    .position-absolute1{position: absolute ;}
     .dflex{display: flex;}
     .align-center { justify-content: center;}
     .card-l-width { max-width: 43rem;}
-    .img-l-width { width: 47% !important ;}
+    .img-s-width { width: 6rem !important ;}
     .heading-xxs-width { width: 100% !important; }
     .text-xxs { font-size: var(--display-xxs);}
     .drop-cont {
@@ -65,7 +77,19 @@
     
 }
 
+@media screen and (max-width: 32.5em) {
+    .img-l-width { max-width: 7rem; }
+    
+    .position-relative2{ margin-left: 420px; margin-bottom: 70px; margin-top: 12px; position: relative ;
+        
+    }
 
+    .position-absolute2{margin-top: 50px; position: absolute ;}
+
+    .margin-bottom{
+        margin-bottom: 6rem;
+    }
+}
 
 
 
