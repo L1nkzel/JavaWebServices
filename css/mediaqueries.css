@@ -53,6 +53,7 @@
     .justify-content-center {justify-content: center !important;}
     .d-s-none { display: none !important; }
     .ml-20{ margin-left: auto;}
+    .ml-4 { margin-left: var(--distance-4);}
     .d-s-block { display:block !important; }
     .order-1 {
         order: 1;
