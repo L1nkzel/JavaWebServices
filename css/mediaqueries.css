@@ -1,8 +1,14 @@
 @media only screen and (max-width: 80em) { /* 1280px / 16px = 80em */
     html { font-size: 60%;}
+
+
+
+
+@media only screen and (max-width: 80em) { /* 1280px / 16px = 80em */
+    html { font-size: 60%;}
 }
 
-@media only screen and (max-width: 38.5em) { /* 552px / 16px = 34.5em */
+@media screen and (max-width: 38.5em) { /* 552px / 16px = 34.5em */
     html { font-size: 90%;} 
 }
 
@@ -81,6 +87,7 @@
 }
 
 @media screen and (max-width: 32.5em) {
+
     .img-l-width { max-width: 7rem; }
     
     .position-relative2{ margin-left: 420px; margin-bottom: 70px; margin-top: 12px; position: relative ;
@@ -100,3 +107,4 @@
     .margin-right {margin-right: 2rem;}
 }
 
+}
